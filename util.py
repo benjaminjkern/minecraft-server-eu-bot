@@ -2,6 +2,8 @@ import datetime
 import logging
 logging.basicConfig(filename='bot.log', level=logging.INFO)
 
+logging.info('')
+
 
 def get_lines(file):
     lines = []

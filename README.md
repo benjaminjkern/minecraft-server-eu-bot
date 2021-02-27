@@ -13,7 +13,7 @@ Forked from Quoorex who made this bot specifically for minecraft-server.eu
 ## Installation
 
 - `pip install -r requirements.txt`
-- `python3 bot.py` (`python bot.py` on Windows)
+- `python3 votebot.py` (`python votebot.py` on Windows)
 
 ## Configuration
 
