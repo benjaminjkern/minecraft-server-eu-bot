@@ -27,7 +27,7 @@ from util import get_lines, out
 class bcolors:
     with open("config.yaml") as f:
         conf = yaml.safe_load(f)
-        if conf['use_colors']:
+        if conf['use_colors'] == "True":
             HEADER = '\033[95m'
             OKBLUE = '\033[94m'
             OKCYAN = '\033[96m'
